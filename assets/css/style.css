@@ -206,24 +206,32 @@ border: 0 none;
 {
   #main-container {
   
-  max-width: 768px;
+  max-width: 100%;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px
 
   }
   .container {
-    max-width: 768px;
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
 
   }
 
   .main-section{
-    max-width: 450px;
+    max-width: 60%;
 
   }
 
   .auth-image {
     
-    width: 385px;
+    width: 100%;
 
   }
+  .sidebar{
+  padding-left: 20px;
+}
   
 }
 
@@ -231,64 +239,83 @@ border: 0 none;
 {
   #main-container {
   
-  max-width: 700px;
+  max-width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
 
   }
   .container {
-    max-width: 700px;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 
   }
 
   .main-section{
-    max-width: 700px;
+    max-width: 100%;
 
 }
 
 .sidebar{
-  max-width: 700px;
+  max-width: 100%;
 }
+
+
 
 @media screen and (max-width: 640px)
 {
   header {
     position: static;
-    clear: both;
-  }
-  #main-container {
-  
-  max-width: 580px;
-border-top: 500px;
 
   }
+
+
+  #main-container {
+  
+width: 100%;
+padding-top: 180px;
+
+  }
+  .container {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
   
   .main-section{
-    max-width: 580px;
-    /*border-top: 400px;*/
+   
+    max-width: 100%;
   
 }
 
   .sidebar{
 
-  max-width: 580px;
+  width: 100%;
    }
 
    #logo {
-    width: 100%;  
+    width: 100%; 
+
    }
    .auth-image {
-    width: 525px;
+    width: 100%;
     padding-bottom: 20px;
 }
    
-
-   nav {
-    padding-right: 40px;
-    padding-left: 40px;
-   }
    nav a {
+
+    max-width: 100%;
     padding-right: 80px;
     padding-top: 10px;
    }
+
+   .work {
+    width: 100%;
+ 
+    
+}
 
 }
 
